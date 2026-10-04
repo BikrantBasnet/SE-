@@ -1,0 +1,202 @@
+Lesson 1: Programming
+
+Programming
+
+Programming is the process of creating a set of instructions that tell a computer how to perform a task. Programming can be done using a variety of computer programming languages, such as JavaScript, Python, C++, C, Java etc, which helps us to interact with computers and give them instructions of a task. The main purpose of programming is to have a machine do a task for us. Computers will always do exactly what their programming tells them to do. 
+
+ 
+
+Programming Language
+
+Unfortunately, computers don’t understand languages like English or Spanish, so we have to use a programming language they understand to give them instructions. A programming language uses commands, instructions in a syntax to create a software program. Programming language is the language which is used to communicate with machines in order to perform task.
+
+
+
+Types of Programming Language
+
+High Level Language
+
+It is near to human and far away from computer. English like letters, basic mathematical symbols are used in high level language. Examples: C++, Java and Python etc. High level languages are portable. It can be considered as a programmer-friendly language. It is easy to debug.
+
+
+
+Language Translators:
+
+Language translators are the programs that translate a high-level language program into machine code. Two types of translators are used to by high level languages to convert into machine code.
+
+Compiler: A compiler is a program that translates a source program into machine language as a whole. Compiler checks the error in the program and generate the error message.
+Interpreter: An interpreter is a program that translate source program into machine code line by line. If there is an error in the line interpreter stop working and generate an error message. Programmer can find error quickly.
+
+Low Level Language
+
+It is near to computer and far away from human. It is considered as a machine-friendly language. It is difficult to debug.
+
+
+
+Types of Low-Level Language
+
+Machine Language
+A type of language in which instructions are written in binary form. In the form of 0’s and 1’s. It is difficult to learn and takes a lot of time to writing and modifying. It is native language of computer.
+
+ 
+
+Assembly Language
+The language which is written by using mnemonics. Mnemonics are the short English word like ADD, SUB, MUL, DIV etc. It is one step higher than machine language. It requires assembler to translate the code into machine code. 
+
+
+
+Source code
+
+A program written in high-level language. Also called source program. Computer cannot understand the statements of high-level language. Source code cannot be executed by computer directly. It is converted into object code and then executed. It is easy to modify.
+
+ 
+
+In this course you will be programming using a language called Python.
+
+Python
+Python is one of the most popular programming language. it is widely used by programmers around the world. its clarity and simplicity make it the perfect choice for beginners. Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Python syntax are easy compared to other languages.
+C language
+
+#include<stdio.h>
+
+main()
+
+{
+
+printf(“hello world”);
+
+}
+
+Then compile code and run
+
+Java Language
+
+public class Test
+
+{
+
+Public static void main(String[] args)
+
+{
+
+System. out.println(“hello world”);
+
+}
+
+}
+
+Python Language
+
+print (“hello world”)
+
+python test.py or py test.py (to run code)
+
+Compared to other language it is easiest language. Library support, easiness and concise code python is popular.
+
+C language
+
+#include<stdio.h>
+
+main()
+
+{
+
+int a,b;
+
+a=10;
+
+b=20;
+
+printf(“the sum : %d”, (a+b));
+
+Java Language
+
+
+
+Python Language
+
+a=10
+
+b=20
+
+print (‘The sum:’, a+b)
+
+Or a,b = 10,20 
+
+We are not required to declare int, float etc.
+
+Based on ever provided value automatically type will be considered.
+
+
+
+History of Python
+
+Python was introduced by Guido van Rossum in 1989 while working in National Research Institute (Centrum Wiskunde and Informatica ) Netherland.  In feb 20th 1991 made available to the public (officially released).
+When he began implementing Python, Guido van Rossum was also reading the published scripts from “Monty Python's Flying Circus”, a BBC comedy series from the 1970s. Van Rossum thought he needed a name that was short, unique, and slightly mysterious, so he decided to call the language Python.
+Market trend, Market requirement, it became popular.
+
+Features of Python
+
+Easy to learn and implement
+Free and Open source
+Rich library support
+Cross platform
+Work on Interpreter Logic
+High Level Programming
+Easy integration with other languages
+GUI Programming Support
+
+Where Python is Used?
+
+Website and Application Development
+Desktop Application
+Games Development
+Image processing
+Graphic Design
+Neural Networks
+Data Visualization
+Data Science
+Scientific Calculation
+Machine learning and Artificial Intelligence
+Database Development
+IOT
+3D Application Development
+Audio and Videos Software Development like VLC player
+Python Popular Frameworks and Libraries
+
+Web development – Django Flask, Pyramid, CherryPy 
+GUIs based applications - Tk, PyGTK, PyQt, PyJs, etc. 
+Machine Learning - TensorFlow, PyTorch, Scikit-learn, Matplotlib, Scipy, etc.
+Mathematics - Numpy, Pandas, etc.
+
+
+Companies using Python
+NETFLIX: To make video buffering better
+
+Facebook: To handle large amount of data
+
+Dropbox: To make server-side better
+
+YouTube: To make recommend system better
+
+Instagram: To make image and video processing better
+
+Torrent: To make peer-to-peer connection better
+
+
+Byte-Code
+
+Byte code is an intermediate code or let say it is machine independent code which is not directly run by CPU. Byte code is not directly understandable by CPU. Since Byte code is not directly understandable by the machine, so there might be something to understand bytecode, hence here virtual machine comes into action.
+
+Virtual Machine
+
+It is a special layer of software which converts byte-code instructions to machine instructions.
+
+Benefits of Byte-Code
+
+Once compiles bytecode can run on any platform, if that platform has virtual machine.
+
+Drawback of Byte-code
+
+It run at slower pace because the interpreter inside virtual machine has to convert each bytecode instruction to native form and then sends it for execution to the CPU.
+
